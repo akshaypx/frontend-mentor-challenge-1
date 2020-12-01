@@ -1,0 +1,130 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  top: 150%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+.left-bg {
+  width: 50%;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  z-index: 1;
+  transform: rotate(30deg);
+}
+.right-bg {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  z-index: 2;
+}
+.card {
+  z-index: 3;
+  height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 9%;
+  background-color: white;
+  border-radius: 12px;
+  position: absolute;
+  top: 2%;
+  left: 37%;
+  box-shadow: 0px 15px 50px 9px rgba(0, 0, 0, 0.22);
+}
+.banner {
+  border-radius: 12px 12px 0 0;
+}
+.profile-back {
+  margin: 0 auto;
+  border-radius: 52px;
+  background-color: white;
+  height: 105px;
+  width: 105px;
+  position: relative;
+  bottom: 52px;
+}
+.profile-photo {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 96px;
+  left: 127px;
+  border-radius: 50px;
+}
+p {
+  display: inline;
+}
+.card-info-top {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.location {
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  opacity: 50%;
+}
+.other {
+  font-weight: lighter;
+  opacity: 50%;
+}
+.numbers {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-info-bottom {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.name {
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.followers {
+  display: inline-block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 0 15px;
+}
+.likes {
+  display: inline-block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 0 15px;
+}
+.photos {
+  display: inline-block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 0 15px;
+}
+.info {
+  font-size: 10px;
+  opacity: 50%;
+}
+hr {
+  border: none;
+  background-color: hsl(0, 0%, 59%);
+  height: 1px;
+  opacity: 30%;
+}
